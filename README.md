@@ -1,7 +1,6 @@
 # IOT-Sensor-Network
 
 
-Raspberry Pi Mini Weather Station
 
 
 
