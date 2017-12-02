@@ -1,8 +1,6 @@
 
 ## IOT-Sensor-Network
 
-![img1.jpg]({{site.baseurl}}/img1.jpg)
-
 
 ##Raspberry Pi Weather Station
 
@@ -29,7 +27,7 @@ These instructions have been tested with the latest version of Raspian, however 
 Wire up the sensors as shown here: 
 ![img.png]({{site.baseurl}}/img.png)
 
-###Setup the AM302
+### Setup the AM302
 
 Here we set up the AM2302 Humidity Sensor.
 
@@ -44,7 +42,7 @@ sudo apt-get update
 sudo apt-get install build-essential python-dev python-openssl  
 
 sudo python setup.py install    
-###Setup the DSB18B20    
+### Setup the DSB18B20    
 
 You will need to add One Wire Support:    
 
@@ -82,7 +80,7 @@ Reboot the Pi:
 
 sudo reboot  
 
-###Setup the TSL2561  
+### Setup the TSL2561  
 
 cd ~/sources  
 
@@ -90,13 +88,13 @@ wget https://raw.githubusercontent.com/adafruit/Adafruit-Raspberry-Pi-Python-Cod
 wget https://raw.githubusercontent.com/seanbechhofer/raspberrypi/master/python/TSL2561.py  
 
 
-###Setup the BMP 180  
+### Setup the BMP 180 
 
 git clone https://github.com/adafruit/Adafruit_Python_BMP.git  
 cd Adafruit_Python_BMP  
 sudo python setup.py install  
 
-###Test the sensors  
+### Test the sensors  
 
 git clone https://github.com/Morjatt/IOT-Sensor-Network.git  
 cd reader  
