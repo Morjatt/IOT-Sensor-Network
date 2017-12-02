@@ -1,6 +1,8 @@
 
 ## IOT-Sensor-Network
+![mod](https://user-images.githubusercontent.com/25153383/33517256-ddc5fd74-d7a6-11e7-967a-d347e390c9a9.jpg)
 
+![mod1](https://user-images.githubusercontent.com/25153383/33517278-1fd29af6-d7a7-11e7-9559-40edc8c1e48e.jpg)
 
 ##Raspberry Pi Weather Station
 
@@ -98,5 +100,4 @@ sudo python setup.py install
 
 git clone https://github.com/Morjatt/IOT-Sensor-Network.git  
 cd reader  
-sudo python readings.py dryrun  
-
+sudo python readings.py dryrun
