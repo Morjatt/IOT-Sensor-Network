@@ -25,7 +25,7 @@ Measures:
 These instructions have been tested with the latest version of Raspian, however they should run in most distributions of Linux fairly easily.
 
 Wire up the sensors as shown here: 
-![img.png]({{site.baseurl}}/img.png)
+![img](https://user-images.githubusercontent.com/25153383/33514127-e24c1640-d773-11e7-9947-feb35a3e86dc.png)
 
 ### Setup the AM302
 
